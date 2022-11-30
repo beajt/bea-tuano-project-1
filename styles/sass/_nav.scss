@@ -1,0 +1,21 @@
+@use 'variables' as *;
+
+nav {
+    width: 500px;
+    background-color: papayawhip;
+
+    li {
+        border: 1px solid black;
+
+        a {
+            color: $primaryColor;
+
+            &:hover,
+            &:focus {
+                color: blue;
+            }
+
+        }
+    }
+
+}

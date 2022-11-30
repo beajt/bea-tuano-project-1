@@ -1,0 +1,24 @@
+@use 'variables' as *;
+@use 'setup';
+@use 'nav';
+
+@mixin position ($type, $top, $right){
+
+    position: $type;
+    top: $top;
+    right: $right;
+}
+
+body {
+    background-color: skyblue;
+    font-family: $baseFont;
+}
+
+
+div {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+
