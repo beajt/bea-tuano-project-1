@@ -203,14 +203,13 @@ template {
 }
 
 nav {
-  width: 500px;
   background-color: #345231;
 }
 nav li {
   border: 1px solid black;
 }
 nav li a {
-  color: #ff00ff;
+  color: #f6f6f6;
 }
 nav li a:hover, nav li a:focus {
   color: blue;
