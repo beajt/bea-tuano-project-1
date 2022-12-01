@@ -204,7 +204,7 @@ template {
 
 nav {
   width: 500px;
-  background-color: papayawhip;
+  background-color: #345231;
 }
 nav li {
   border: 1px solid black;
@@ -217,7 +217,7 @@ nav li a:hover, nav li a:focus {
 }
 
 body {
-  background-color: skyblue;
+  background-color: #f6f6f6;
   font-family: "Helvetica";
 }
 
