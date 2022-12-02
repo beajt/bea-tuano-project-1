@@ -1,6 +1,8 @@
 @use 'variables' as *;
+@use "typography";
 @use 'setup';
 @use 'nav';
+
 
 @mixin position ($type, $top, $right){
 
@@ -9,16 +11,15 @@
     right: $right;
 }
 
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
 body {
     background-color: #f6f6f6;
     font-family: $baseFont;
-}
-
-
-div {
-    position: absolute;
-    top: 50px;
-    right: 50px;
 }
 
 
