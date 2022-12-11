@@ -1,123 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./styles/styles.css">
-	<title>Home</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/386985815b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <nav>
+      <div class="wrapper">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#"><span>WILLOW</span></a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- NAV END-->
 
-	<header>
-		<div class="wrapper">
-			<nav>
-				<ul>
-					<li>
-						<a href="#">Home</a>
-					</li>
-					<li>
-						<a href="#" >About</a>
-					</li>
-					<li>
-						<a href="#"><span>WILLOW</span></a>
-					</li>
-					<li>
-						<a href="#">Blog</a>
-					</li>
-					<li>
-						<a href="#">Contact</a>
-					</li>
-				</ul>
-			</nav> <!-- NAV END-->
-			
-			<img src="./assets/circle-text.png" alt ="daily musings of wraps around the word willow">
-			<h1>WILLOW</h1>
-			
-			<img src="./assets/home-image-1.jpg" alt="image of woman wearing mustard jacket">
-		</div>
-	</header> <!-- HEADER END -->
+    <header>
+      <div class="wrapper">
+        <div class="willow-header">
+          <img
+            class="musing"
+            src="./assets/circle-text.png"
+            alt="daily musings of wraps around the word willow"
+          />
+          <h1 class="header-title">WILLOW</h1>
 
-	<main>
-		<section class="who-willow">
-			<div class="wrapper">
-				<h2>WHO'S WILLOW?</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis modi repellat sed voluptatem quis voluptates nisi, deleniti sint quo perferendis incidunt, mollitia alias earum laborum voluptatibus tempore voluptatum. Odio.</p>
-				<button>FIND OUT MORE</button>
-			</div>
-		</section>
-			
-		<section class="favourite-things">
-			<div class="wrapper">
-				<img src="./assets/home-image-2.jpg">
-				<h2>FAVOURITE THINGS</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nisi, excepturi expedita voluptatibus reprehenderit tempora voluptas a explicabo itaque sunt totam quas cumque similique adipisci doloribus optio repellendus quae illum!</p>
-				<button>READ MORE</button>
-			</div>
-		</section>
-		
-		<section class="bucket-list">
-			<div class="wrapper">
-				<h2>BUCKET LIST</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consequatur quos voluptate. Impedit at dolores incidunt modi adipisci omnis ut, ipsa beatae magnam aut rerum ducimus placeat necessitatibus asperiores repellat.</p>
-				<button>READ MORE</button>
-				<img src="./assets/home-image-3.jpg">
-			</div>
-		</section>	
+          <div class="container-1">
+            <img
+              class="mustard"
+              src="./assets/home-image-1.jpg"
+              alt="image of woman wearing mustard jacket"
+            />
+            <div class="square-1"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
 
-		<section class="willow-journey">
-			<div class="wrapper">
-				<img src="./assets/home-image-4.jpg">
-				<h2>WILLOW'S JOURNEY</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione reprehenderit magnam vitae eligendi voluptate quisquam voluptatibus aliquid rerum iure impedit. Impedit culpa fugit non, deleniti aperiam saepe vero aliquid magnam.</p>
-				<button>FIND OUT MORE</button>
-			</div>
-		</section>
+    <main>
+      <section class="who-willow">
+        <div class="wrapper">
+          <h2>WHO'S WILLOW?</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            nobis modi repellat sed voluptatem quis voluptates nisi, deleniti
+            sint quo perferendis incidunt, mollitia alias earum laborum
+            voluptatibus tempore voluptatum. Odio.
+          </p>
+          <button class="button-find">FIND OUT MORE</button>
+        </div>
+      </section>
 
-		<section class="home-background"> .   <!-- i think this can be 2 classes?-->
-			<div class="sr-only">yellow house in the mountains</div>
-		</section>
+      <section class="section-three">
+          <div class="favourite-flex">
+            <div class="rectangle-1">
+              <img class="bridge"
+              src="./assets/home-image-2.jpg"
+              alt="bridge with waterfall in the back"
+              />
+            </div>
+            <div class="favourite-things">
+              <h2>FAVOURITE THINGS</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                consequatur quos voluptate. Impedit at dolores incidunt modi
+                adipisci omnis ut, ipsa beatae magnam aut rerum ducimus placeat
+                necessitatibus asperiores repellat.
+              </p>
+              <button class="button-read">READ MORE</button>
+            </div>
+          </div>
+          
+          <div class="bucket-flex">
+            <div class="bucket-list">
+              <h2>BUCKET LIST</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                nisi, excepturi expedita voluptatibus reprehenderit tempora voluptas
+                a explicabo itaque sunt totam quas cumque similique adipisci
+                doloribus optio repellendus quae illum!
+              </p>
+              <button class="button-read">READ MORE</button>
+            </div>
+            <div class="rectangle-2">
+              <img src="./assets/home-image-3.jpg" alt="lilypad flower" />
+            </div>
+          </div>
+        </section>
 
-		<section class="gallery">
-			<div class="wrapper">
-				<ul>
-					<li>
-						<img src="./assets/home-image-6.jpg" alt="road going straight">
-					</li>
-					<li>
-						<img src="./assets/home-image-7.jpg" alt="one bowl of oranges and one plate with sliced oranges">
-					</li>
-					<li>
-						<img src="./assets/home-image-8.jpg" alt="stairs with gold and black details">
-					</li>
-				</ul>
-			</div>
-		</section>
+      <section class="willow-journey">
+        <div class="wrapper">
+          <div class="willow-flex">
+            <img src="./assets/home-image-4.jpg" />
+            <div class="flex-willow-journey">
+              <h2>WILLOW'S JOURNEY</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                reprehenderit magnam vitae eligendi voluptate quisquam
+                voluptatibus aliquid rerum iure impedit. Impedit culpa fugit
+                non, deleniti aperiam saepe vero aliquid magnam.
+              </p>
+              <button class="button-find">FIND OUT MORE</button>
+            </div>
+          </div>
+        </div>
+      </section>
 
-		<section class="photos-about">
-			<div class="wrapper">
+      <section class="home-background">
+        <!-- i think this can be 2 classes?-->
+        <div class="sr-only">yellow house in the mountains</div>
+      </section>
 
-				<h2>PHOTOS</h2>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam at non voluptatibus cum sapiente quae et. Modi aperiam accusantium aliquid optio atque fugit iure deserunt voluptatum ullam non. Nisi, fugit?</p>
-				
-				<h2>ABOUT</h2>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam at non voluptatibus cum sapiente quae et. Modi
-					aperiam accusantium aliquid optio atque fugit iure deserunt voluptatum ullam non. Nisi, fugit?</p>
-					
-					<h2>BLOG</h2>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam at non voluptatibus cum sapiente quae et. Modi
-						aperiam accusantium aliquid optio atque fugit iure deserunt voluptatum ullam non. Nisi, fugit?</p>
-						
-						<h2>CONTACT ME</h2>
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam at non voluptatibus cum sapiente quae et. Modi
-							aperiam accusantium aliquid optio atque fugit iure deserunt voluptatum ullam non. Nisi, fugit?</p>
-			</div>
-		</section>
-	</main> <!-- MAIN ENDS -->
+      <section class="gallery">
+        <div class="wrapper">
+          <ul>
+            <li>
+              <img src="./assets/home-image-6.jpg" alt="road going straight" />
+            </li>
+            <li>
+              <img
+                src="./assets/home-image-7.jpg"
+                alt="one bowl of oranges and one plate with sliced oranges"
+              />
+            </li>
+            <li>
+              <img
+                src="./assets/home-image-8.jpg"
+                alt="stairs with gold and black details"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
 
-	<footer>
-		<p>Copyright © 2018 HackerYou</p>
-	</footer>
+      <section class="icon-description">
+        <div class="icon-details">
+          <div>
+            <span class="fa-stack fa-2x">
+              <i class="fa-solid fa-circle fa-stack-2x icon-background"></i>
+              <i class="fa-solid fa-image fa-stack-1x"></i>
+            </span>
+          </div>
+          <div class="h-description">
+            <h3>PHOTOS</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              molestias, atque amet natus officia illum debitis sed doloremque
+              vel tenetur.
+            </p>
+          </div>
+        </div>
+        <div class="icon-details">
+          <div>
+            <span class="fa-stack fa-2x">
+              <i class="fa-solid fa-circle fa-stack-2x icon-background"></i>
+              <i class="fa-solid fa-image fa-stack-1x"></i>
+            </span>
+          </div>
+          <div class="h-description">
+            <h3>ABOUT</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              molestias, atque amet natus officia illum debitis sed doloremque
+              vel tenetur.
+            </p>
+          </div>
+        </div>
+        <div class="icon-details">
+          <div>
+            <span class="fa-stack fa-2x">
+              <i class="fa-solid fa-circle fa-stack-2x icon-background"></i>
+              <i class="fa-solid fa-image fa-stack-1x"></i>
+            </span>
+          </div>
+          <div class="h-description">
+            <h3>BLOG</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              molestias, atque amet natus officia illum debitis sed doloremque
+              vel tenetur.
+            </p>
+          </div>
+        </div>
+        <div class="icon-details">
+          <div>
+            <span class="fa-stack fa-2x">
+              <i class="fa-solid fa-circle fa-stack-2x icon-background"></i>
+              <i class="fa-solid fa-image fa-stack-1x"></i>
+            </span>
+          </div>
+          <div class="h-description">
+            <h3>CONTACT ME</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              molestias, atque amet natus officia illum debitis sed doloremque
+              vel tenetur.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- MAIN ENDS -->
 
-</body>
+    <footer>
+      <p>Copyright © 2018 HackerYou</p>
+    </footer>
+  </body>
 </html>

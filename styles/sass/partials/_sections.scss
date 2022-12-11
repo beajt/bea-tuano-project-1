@@ -1,0 +1,235 @@
+@use "variables" as *;
+
+// WHO WILLOW SECTION
+
+.who-willow {
+  background-color: $whiteShade;
+  text-align: center;
+  padding: 70px;
+}
+
+.section-three {
+  display: flex;
+  flex-wrap: wrap;
+
+  img {
+    width: 70%;
+  }
+  
+  button {
+    margin-bottom: 3rem;
+  }
+}
+
+.bucket-flex,
+.favourite-flex {
+  display: flex;
+
+    div {
+    width: 50%;
+  }
+  
+}
+
+.favourite-flex {
+  
+  .rectangle-1 {
+    background-color: $secondary;
+  }
+}
+
+.bucket-list {
+  text-align: right;
+
+}
+
+.rectangle-2 {
+  background-color: $primaryColor;
+} 
+
+.bucket-list,
+.favourite-things {
+  margin: 1rem;
+  padding: 1rem 3rem;
+}
+
+
+.willow-journey {
+  background-color: $whiteShade;
+  padding: 3rem 0;
+}
+
+.willow-flex {
+  display: flex;
+
+  img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .flex-willow-journey {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    margin: 0 auto;
+  }
+}
+
+.home-background {
+  background-image: url("../assets/home-image-5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 350px;
+  width: 100%;
+}
+
+// GALLERY SECTION
+
+.gallery {
+  background-color: white;
+  padding: 30px 0;
+
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    max-width: 90%;
+  }
+}
+
+.photos-about {
+  padding: 30px 0;
+  display: flex;
+}
+.photo-flex {
+  div {
+    width: 50%;
+  }
+}
+.photos {
+  display: flex;
+}
+
+
+.icon-background {
+  color: $tertiary;
+}
+.icon-description {
+  background-color: $whiteShade;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+// h tags with p tags underneath
+.h-description {
+  display: flex;
+  flex-direction: column;
+}
+.icon-details {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+// CONTACT PAGE
+
+.body-background {
+  background-color: $whiteShade;
+}
+
+.contact-background {
+  background-image: url(../assets/contact-image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 22rem;
+  width: 100%;
+
+  h2 {
+    color: $whiteShade;
+    font-size: 4rem;
+    margin: auto;
+    padding: 18.5rem 8rem;
+  }
+}
+
+.main-background {
+  font-family: $bodyFont;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.icons-contact {
+  li {
+    color: $primaryColor;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+}
+
+.contact-main {
+  background-color: white;
+  width: 20rem;
+  height: 14rem;
+  margin-right: 2rem;
+}
+
+.bold-email {
+  font-weight: bold;
+}
+
+.icons-contact {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    li {
+      padding: 2px 2px;
+    }
+  }
+}
+
+.contact-me {
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.form-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0 1rem 0;
+}
+
+input {
+  font-family: $bodyFont;
+  width: 16.5rem;
+}
+
+textarea {
+  font-family: $bodyFont;
+  margin-bottom: 1rem;
+}
+
+.contact-submit {
+  display: inline-block;
+  width: 33rem;
+  margin-bottom: 5rem;
+}
+
+// BLOG PAGE
+.blog-background {
+  background-image: url(../assets/blog-image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 350px;
+  width: 100%;
+}
+

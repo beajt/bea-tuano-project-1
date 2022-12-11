@@ -1,7 +1,10 @@
-@use 'variables' as *;
-@use "typography";
-@use 'setup';
-@use 'nav';
+@use './partials/variables' as *;
+@use "./partials/typography";
+@use './partials/setup';
+@use './partials/nav';
+@use './partials/sections';
+@use './partials/header';
+@use './partials/footer';
 
 
 @mixin position ($type, $top, $right){
@@ -17,9 +20,41 @@
     max-width: 1080px;
 }
 
-body {
-    background-color: #f6f6f6;
+header {
+    background-color: $primaryColor;
     font-family: $baseFont;
 }
+
+body {
+    font-family: $baseFont;
+}
+
+button {
+    background-color: $tertiary;
+    color: $black;
+    font-family: $baseFont;
+    font-weight: bold;
+    font-size: 20px;
+    width: 160px;
+    height: 30px;
+    border: none;
+}
+
+.button-read {
+
+}
+
+.button-find {
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+
+.button-comment { // theres a way for this button to be full length
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+
 
 

@@ -1,0 +1,34 @@
+@use "variables" as *;
+
+nav {
+  background-color: $primaryColor;
+  font-family: $bodyFont;
+  font-weight: bold;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  li {
+    padding: 0rem 1rem;
+
+    a {
+      color: $whiteShade;
+
+      &:hover,
+      &:focus {
+        color: $tertiary;
+      }
+      span {
+        font-family: $baseFont;
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

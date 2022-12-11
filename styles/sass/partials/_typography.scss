@@ -1,0 +1,36 @@
+@use "variables" as *;
+
+@font-face {
+    font-family: "Abril Fatface";
+    src: url('../fonts/Abril_Fatface/AbrilFatface-Regular.ttf');
+    font-weight: normal;
+
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+    
+    // <style>@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+    //     </style>
+
+    // <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https:
+    // " rel="stylesheet">
+}
+
+h1 {
+    font-size: 80px;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    color: $whiteShade;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: $bodyFont;
+}
