@@ -1,0 +1,129 @@
+@use "variables" as *;
+
+@media (max-width: 480px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  nav li {
+    padding: 0rem 0.25rem;
+  }
+
+  .header-title {
+    font-size: 7vh;
+  }
+
+  .who-willow {
+    padding: 2rem;
+  }
+
+  .square-1 {
+    display: hidden;
+  }
+
+  .container-1 {
+    display: none;
+  }
+
+  .favourite-flex,
+  .bucket-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .favourite-things,
+    .bucket-list {
+      padding: 0;
+      text-align: center;
+
+      h2,
+      p {
+        margin: 2rem -4rem 1rem;
+      }
+    }
+
+    .rectangle-1,
+    .rectangle-2 {
+      width: 100%;
+      margin: auto;
+    }
+  }
+
+  .lily {
+    width: 100%;
+    margin: auto;
+  }
+
+  button {
+    margin-bottom: 0;
+  }
+
+  .willow-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .flex-willow-journey {
+      padding-top: 2rem;
+      text-align: center;
+      align-items: center;
+    }
+    .h-description {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .icon-description {
+      width: 0;
+    }
+  }
+
+  .blog-background {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+  .blog-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-recent-flex {
+    padding: 0rem 0rem 1rem 5rem;
+  }
+
+  textarea {
+    width: 22rem;
+    height: 10rem;
+  }
+
+  .button-comment {
+    width: 22rem;
+    height: 10rem;
+  }
+
+  .contact-background {
+      h2 {
+       font-size: 2rem;
+     }
+  }
+  .main-background {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding: 0;
+  }
+
+  .contact-main {
+    margin: 0;
+  }
+
+  .icons-contact {
+    padding-left: 10rem;
+  }
+
+  .form-flex {
+    padding:0;
+  }
+}

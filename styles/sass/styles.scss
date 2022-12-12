@@ -5,6 +5,7 @@
 @use "./partials/sections";
 @use "./partials/header";
 @use "./partials/footer";
+@use "./partials/media-queries";
 
 @mixin position($type, $top, $right) {
   position: $type;
