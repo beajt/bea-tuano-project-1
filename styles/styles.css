@@ -256,7 +256,8 @@ html {
 nav {
   background-color: #345231;
   font-family: "Montserrat";
-  font-weight: bold;
+  line-height: 29px;
+  letter-spacing: 1px;
 }
 nav ul {
   display: -webkit-box;
@@ -291,7 +292,7 @@ nav li a span {
 .who-willow {
   background-color: #f6f6f6;
   text-align: center;
-  padding: 70px;
+  padding: 4rem;
 }
 
 .section-three {
@@ -302,44 +303,69 @@ nav li a span {
       flex-wrap: wrap;
 }
 .section-three img {
-  width: 70%;
-}
-.section-three button {
-  margin-bottom: 3rem;
+  width: 80%;
 }
 
-.bucket-flex,
-.favourite-flex {
+.favourite-flex,
+.bucket-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.bucket-flex div,
-.favourite-flex div {
+.favourite-flex div,
+.bucket-flex div {
   width: 50%;
 }
 
-.favourite-flex .rectangle-1 {
-  background-color: #709b6b;
+.favourite-flex {
+  padding-bottom: 3rem;
+}
+
+.favourite-things {
+  padding-left: 2rem;
+  padding-left: 8rem;
 }
 
 .bucket-list {
+  padding: 0 6rem 0rem 3rem;
+  margin-bottom: 2rem;
   text-align: right;
+}
+
+.button-read {
+  margin-bottom: 2rem;
+}
+
+.rectangle-1 {
+  background-color: #709b6b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-top: -1rem;
+  margin-right: -4rem;
+}
+
+.bridge {
+  margin: -1rem 1rem 1rem 0;
+}
+
+.lily {
+  margin-top: -1rem;
+  margin-left: -1rem;
 }
 
 .rectangle-2 {
   background-color: #345231;
-}
-
-.bucket-list,
-.favourite-things {
-  margin: 1rem;
-  padding: 1rem 3rem;
+  margin-bottom: -1rem;
+  margin-top: 3rem;
 }
 
 .willow-journey {
   background-color: #f6f6f6;
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 
 .willow-flex {
@@ -350,6 +376,8 @@ nav li a span {
 .willow-flex img {
   width: 10rem;
   height: 10rem;
+  position: absolute;
+  z-index: 20;
 }
 .willow-flex .flex-willow-journey {
   display: -webkit-box;
@@ -362,6 +390,22 @@ nav li a span {
   -ms-flex-preferred-size: 70%;
       flex-basis: 70%;
   margin: 0 auto;
+}
+
+.container-2 {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+}
+
+.square-2 {
+  width: 10rem;
+  height: 10rem;
+  background-color: #709b6b;
+  position: absolute;
+  z-index: 10;
+  top: 1rem;
+  left: 1rem;
 }
 
 .home-background {
@@ -406,6 +450,11 @@ nav li a span {
   display: flex;
 }
 
+.icon-margins {
+  margin-top: 0.75rem;
+  margin-right: 1rem;
+}
+
 .icon-background {
   color: #e4a436;
 }
@@ -442,6 +491,7 @@ nav li a span {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 50%;
+  padding: 1rem;
 }
 
 .body-background {
@@ -460,7 +510,7 @@ nav li a span {
   color: #f6f6f6;
   font-size: 4rem;
   margin: auto;
-  padding: 18.5rem 8rem;
+  padding: 21rem 8rem;
 }
 
 .main-background {
@@ -475,6 +525,7 @@ nav li a span {
       -ms-flex-align: center;
           align-items: center;
   text-align: left;
+  padding-left: 2rem;
 }
 
 .icons-contact li {
@@ -485,9 +536,9 @@ nav li a span {
 
 .contact-main {
   background-color: white;
-  width: 20rem;
-  height: 14rem;
-  margin-right: 2rem;
+  width: 30rem;
+  height: 15rem;
+  margin: 0rem 2rem 4rem 7rem;
 }
 
 .bold-email {
@@ -521,12 +572,13 @@ nav li a span {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 4rem 0 1rem 0;
+  padding: 4rem 0 1rem;
 }
 
 input {
   font-family: "Montserrat";
-  width: 16.5rem;
+  width: 17rem;
+  margin-bottom: 1rem;
 }
 
 textarea {
@@ -536,7 +588,7 @@ textarea {
 
 .contact-submit {
   display: inline-block;
-  width: 33rem;
+  width: 34rem;
   margin-bottom: 5rem;
 }
 
@@ -547,6 +599,120 @@ textarea {
   background-attachment: scroll;
   height: 350px;
   width: 100%;
+}
+.blog-background h2 {
+  color: #f6f6f6;
+  font-size: 3rem;
+  margin: auto;
+  padding: 21rem 5rem;
+}
+
+.about-willow {
+  background-color: white;
+  width: 16rem;
+  height: 33rem;
+}
+.about-willow img {
+  width: 80%;
+}
+
+.blog-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4rem;
+}
+
+.about-recent-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 3rem;
+}
+
+.about-willow-text {
+  padding: 0rem 1rem 0rem 2rem;
+}
+.about-willow-text .blog-h3 {
+  padding-left: 0rem;
+}
+
+.blog-photo {
+  margin: 1.5rem 1.5rem 0;
+}
+
+.recent-posts {
+  background-color: white;
+  width: 16rem;
+  height: 10rem;
+}
+.recent-posts ul {
+  font-family: "Montserrat";
+  list-style: circle;
+}
+
+.recent-h3 {
+  padding-left: 2rem;
+}
+
+.favourite-blog-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.favourite-travel {
+  background-color: white;
+  padding: 1rem 2rem 0;
+  margin-bottom: 2rem;
+}
+
+.barb {
+  background-color: white;
+}
+.barb .barb-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+.barb .barb-post img {
+  height: 5rem;
+  width: 5rem;
+  margin: 2rem 1rem;
+}
+
+.daisy {
+  background-color: white;
+  margin-bottom: 2rem;
+}
+.daisy .daisy-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.daisy img {
+  height: 5rem;
+  width: 5rem;
+  margin: 2rem 1rem;
+}
+
+.border {
+  border-bottom-width: 5px;
+  border-bottom-color: #345231;
+  border-bottom-style: solid;
+}
+
+.input-blog {
+  width: 21.5rem;
 }
 
 .header-title {
@@ -602,7 +768,7 @@ footer {
   background-color: #1f1f1f;
   color: #f6f6f6;
   text-align: center;
-  padding: 5px;
+  padding: 1px;
 }
 
 .wrapper {
@@ -616,8 +782,14 @@ header {
   font-family: "Abril Fatface";
 }
 
+h2 {
+  line-height: 1px;
+}
+
 body {
   font-family: "Abril Fatface";
+  line-height: 25px;
+  letter-spacing: 0;
 }
 
 button {
@@ -625,20 +797,23 @@ button {
   color: #1f1f1f;
   font-family: "Abril Fatface";
   font-weight: bold;
-  font-size: 20px;
-  width: 160px;
+  font-size: 1rem;
+  line-height: 32px;
+  letter-spacing: 1px;
+  width: 140px;
   height: 30px;
   border: none;
 }
 
 .button-find {
-  width: 200px;
+  width: 180px;
   height: 30px;
   border: none;
 }
 
 .button-comment {
-  width: 200px;
-  height: 30px;
+  width: 44.5rem;
+  height: 2rem;
   border: none;
+  margin-bottom: 4rem;
 }

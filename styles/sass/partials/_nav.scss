@@ -3,7 +3,8 @@
 nav {
   background-color: $primaryColor;
   font-family: $bodyFont;
-  font-weight: bold;
+  line-height: 29px;
+  letter-spacing: 1px;
 
   ul {
     display: flex;

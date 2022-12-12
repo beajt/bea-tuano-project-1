@@ -1,55 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Blog</title>
-</head>
-<body>
-
+  </head>
+  <body class="body-background">
     <nav>
-        <div class="wrapper">
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#"><span>WILLOW</span></a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
+      <div class="wrapper">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#"><span>WILLOW</span></a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- NAV END-->
+
+    <header>
+      <div class="blog-background">
+        <h2>BLOG & NEWS</h2>
+      </div>
+    </header>
+
+    <main>
+      <div class="blog-flex">
+        <div class="about-recent-flex">
+          <div class="wrapper">
+            <section class="about-willow">
+                <img class="blog-photo" src="./assets/blog-image-2.jpg" />
+                <div class="about-willow-text">
+                <h3 class="blog-h3">ABOUT WILLOW</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+                  enim ea nesciunt! Perferendis, debitis!
+                  <a href>Find out more.</a>
+                </p>
+              </div>
+            </section>
+
+            <section>
+              <div class="recent-posts">
+                <h3 class="blog-h3">RECENT POSTS</h3>
+                <ul>
+                  <li>Lorem ipsum dolor sit </li>
+                  <li>amet consectetur </li>
+                  <li> elit illum possimus </li>
+                  <li>obcaecati ad impedit sit</li>
+                </ul>
+              </div>
+            </section>
+          </div>
         </div>
-    </nav> <!-- NAV END-->
 
-     <div class="blog-background"></div>
+        <div class="favourite-blog-flex">
+          <div class="wrapper">
+            <section class="favourite-travel">
+              <div class="favourite-travel-text">
+                <h3>MY FAVOURITE TRAVEL DESTINATIONS</h3>
+                <p>
+                  Monday October 8th, 2018 by Willow <br/>
+                  <br/>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod minima adipisci laudantium minus deserunt optio placeat totam, error delectus quibusdam aspernatur reprehenderit voluptatum architecto in, rem esse perferendis?<br/> <br/>Non saepe sequi libero odio illo quam, aut optio. Necessitatibus animi tempore temporibus id, aperiam deserunt itaque dolor in debitis veritatis? Reiciendis inventore voluptas tempora minima eos dolore iusto ut asperiores esse dignissimos commodi laudantium non quasi corrupti illo, delectus cumque vel animi perferendis nulla voluptatum harum! <br/> Quo quisquam voluptatem, placeat repellendus temporibus minima incidunt praesentium porro, dolores ullam similique. Est suscipit reprehenderit quaerat ea? Excepturi beatae aperiam ad veritatis quae optio porro pariatur consequatur, minus sequi accusantium alias iusto, qui eveniet et quos explicabo eius amet voluptates quisquam, laboriosam cupiditate non. Sint nihil cumque dolores quo, dicta quisquam neque esse voluptates. Tempore nisi error sunt incidunt quia accusantium numquam voluptas dolor debitis quaerat et quidem eos eius tenetur, quibusdam cum quo in maiores atque? Vel incidunt totam laborum non nemo quod delectus mollitia odit ad dolores laudantium aspernatur minima modi, repellendus eligendi pariatur fuga numquam. Fugit veritatis recusandae cumque! Odit iure, architecto corporis quia recusandae vero eum deleniti omnis quibusdam iusto maxime, error suscipit a sequi est eaque quae voluptate, non eligendi? Quo, ullam earum! Reiciendis non facere ex distinctio voluptas iusto veritatis vel ratione tempore beatae, laborum tempora repudiandae eveniet labore neque? Ut suscipit cum necessitatibus doloremque laudantium sapiente recusandae. Excepturi illo quaerat optio sed. Esse est velit, exercitationem, animi adipisci incidunt nemo enim hic vero nihil, cumque fugit sint.
+                </p>
+                <div class="border"></div>
+              </div>
+            </section>
 
-        <form action="#">
-            <label for="name"></label>
-            <input type="text" id="name" name="name" placeholder="Name">
-        
-            <label for="email"></label>
-            <input type="email" id="email" name="email" placeholder="Email Address">
-        
-            <label for="message"></label>
-            <textarea name="message" id="message" cols="70" rows="10" placeholder="Comment"></textarea>
-        
-            <button class="button-comment">POST COMMENT</button>
-        </form>
+            <section class="barb">
+              <div class="barb-post">
+                <img src="./assets/blog-image-3.jpg" />
+                <p>
+                  Tuesday October 9th, 2018 by Barb <br />
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Numquam culpa dolor dolore labore aspernatur nemo, doloremque,
+                  voluptatibus veritatis quis ex cum hic tempora fugiat officiis
+                  saepe. Ipsam, fugiat voluptatum iste maiores magnam temporibus
+                  asperiores hic, error quaerat commodi, ipsum consequuntur.
+                </p>
+              </div>
+            </section>
+
+            <section class="daisy">
+              <div class="daisy-post">
+                <img src="./assets/blog-image-4.jpg" />
+                <p>
+                  Wednesday October 10th, 2018 by Daisy <br />
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Numquam culpa dolor dolore labore aspernatur nemo, doloremque,
+                  voluptatibus veritatis quis ex cum hic tempora fugiat officiis
+                  saepe.
+                </p>
+              </div>
+              <div class="border"></div>
+            </section>
+
+            <form action="#">
+              <label for="name"></label>
+              <input class="input-blog" type="text" id="name" name="name" placeholder="Name" />
+
+              <label for="email"></label>
+              <input class="input-blog"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email Address"
+              />
+
+              <label for="message"></label>
+              <textarea
+                name="message"
+                id="message"
+                cols="68"
+                rows="10"
+                placeholder="Comment"
+              ></textarea>
+
+              <button class="button-comment">POST COMMENT</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <footer>
-        <p>Copyright © 2018 HackerYou</p>
+      <p>Copyright © 2018 HackerYou</p>
     </footer>
-
-    
-</body>
+  </body>
 </html>

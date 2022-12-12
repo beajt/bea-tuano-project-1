@@ -1,60 +1,60 @@
-@use './partials/variables' as *;
+@use "./partials/variables" as *;
 @use "./partials/typography";
-@use './partials/setup';
-@use './partials/nav';
-@use './partials/sections';
-@use './partials/header';
-@use './partials/footer';
+@use "./partials/setup";
+@use "./partials/nav";
+@use "./partials/sections";
+@use "./partials/header";
+@use "./partials/footer";
 
-
-@mixin position ($type, $top, $right){
-
-    position: $type;
-    top: $top;
-    right: $right;
+@mixin position($type, $top, $right) {
+  position: $type;
+  top: $top;
+  right: $right;
 }
 
 .wrapper {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1080px;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1080px;
 }
 
 header {
-    background-color: $primaryColor;
-    font-family: $baseFont;
+  background-color: $primaryColor;
+  font-family: $baseFont;
+}
+
+h2 {
+  line-height: 1px;
 }
 
 body {
-    font-family: $baseFont;
+  font-family: $baseFont;
+  line-height: 25px;
+  letter-spacing: 0;
 }
 
 button {
-    background-color: $tertiary;
-    color: $black;
-    font-family: $baseFont;
-    font-weight: bold;
-    font-size: 20px;
-    width: 160px;
-    height: 30px;
-    border: none;
-}
-
-.button-read {
-
+  background-color: $tertiary;
+  color: $black;
+  font-family: $baseFont;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 32px;
+  letter-spacing: 1px;
+  width: 140px;
+  height: 30px;
+  border: none;
 }
 
 .button-find {
-    width: 200px;
-    height: 30px;
-    border: none;
+  width: 180px;
+  height: 30px;
+  border: none;
 }
 
-.button-comment { // theres a way for this button to be full length
-    width: 200px;
-    height: 30px;
-    border: none;
+.button-comment {
+  width: 44.5rem;
+  height: 2rem;
+  border: none;
+  margin-bottom: 4rem;
 }
-
-
-
