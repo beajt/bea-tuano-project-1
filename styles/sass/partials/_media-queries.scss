@@ -56,11 +56,6 @@
 
   button {
     margin-bottom: 0;
-    
-    .button-comment {
-    width: 22rem;
-    height: 10rem;
-  }
   }
 
   .willow-flex {
@@ -83,6 +78,8 @@
     width: auto;
   }
 
+  // BLOG MEDIA QUERIES
+
   .blog-background {
     h2 {
       font-size: 2rem;
@@ -102,15 +99,24 @@
     height: 10rem;
   }
 
+  .button-div {
+    .button-comment {
+      width: 22rem;
+      height: 2rem;
+    }
+  }
+
+  // CONTACT MEDIA QUERIES
+
   .contact-background {
     h2 {
       font-size: 2rem;
+      padding: 21rem 0rem 0rem 7rem;
     }
   }
   .main-background {
     display: flex;
     flex-direction: column;
-    text-align: center;
     background-color: white;
     padding: 0;
   }
@@ -119,11 +125,21 @@
     margin: 0;
   }
 
-  .icons-contact {
-    padding-left: 10rem;
+  .contact-me {
+    padding: 0;
   }
 
   .form-flex {
     padding: 0;
+
+    .contact-submit {
+      width: 22rem;
+      height: 2rem;
+    }
+  }
+
+  .form-contact {
+    display: flex;
+    flex-direction: column;
   }
 }

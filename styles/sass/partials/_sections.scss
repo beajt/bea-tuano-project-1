@@ -246,9 +246,9 @@
   padding: 4rem 0 1rem;
 }
 
-input {
+.input-contact {
   font-family: $bodyFont;
-  width: 17rem;
+  width: 16.5rem;
   margin-bottom: 1rem;
 }
 
@@ -303,7 +303,7 @@ textarea {
 
 .about-willow-text {
   padding: 0rem 1rem 0rem 2rem;
-  
+
   .blog-h3 {
     padding-left: 0rem;
   }
@@ -317,8 +317,8 @@ textarea {
   background-color: white;
   padding: -1rem 1rem 0rem 1rem;
   width: 16rem;
-  height: 10rem;
-  
+  height: 12rem;
+
   ul {
     font-family: $bodyFont;
     list-style: circle;
@@ -327,6 +327,7 @@ textarea {
 
 .recent-h3 {
   padding-left: 2rem;
+  padding-top: 1.5rem;
 }
 
 .favourite-blog-flex {
@@ -338,10 +339,12 @@ textarea {
   background-color: white;
   padding: 1rem 2rem 0;
   margin-bottom: 2rem;
+  margin-right: 1rem;
 }
 
 .barb {
   background-color: white;
+  margin-right: 1rem;
 
   .barb-post {
     display: flex;
@@ -358,6 +361,7 @@ textarea {
 .daisy {
   background-color: white;
   margin-bottom: 2rem;
+  margin-right: 1rem;
 
   .daisy-post {
     display: flex;

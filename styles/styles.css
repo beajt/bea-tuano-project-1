@@ -575,9 +575,9 @@ nav li a span {
   padding: 4rem 0 1rem;
 }
 
-input {
+.input-contact {
   font-family: "Montserrat";
-  width: 17rem;
+  width: 16.5rem;
   margin-bottom: 1rem;
 }
 
@@ -649,7 +649,7 @@ textarea {
   background-color: white;
   padding: -1rem 1rem 0rem 1rem;
   width: 16rem;
-  height: 10rem;
+  height: 12rem;
 }
 .recent-posts ul {
   font-family: "Montserrat";
@@ -658,6 +658,7 @@ textarea {
 
 .recent-h3 {
   padding-left: 2rem;
+  padding-top: 1.5rem;
 }
 
 .favourite-blog-flex {
@@ -674,10 +675,12 @@ textarea {
   background-color: white;
   padding: 1rem 2rem 0;
   margin-bottom: 2rem;
+  margin-right: 1rem;
 }
 
 .barb {
   background-color: white;
+  margin-right: 1rem;
 }
 .barb .barb-post {
   display: -webkit-box;
@@ -694,6 +697,7 @@ textarea {
 .daisy {
   background-color: white;
   margin-bottom: 2rem;
+  margin-right: 1rem;
 }
 .daisy .daisy-post {
   display: -webkit-box;
@@ -835,10 +839,6 @@ footer {
   button {
     margin-bottom: 0;
   }
-  button .button-comment {
-    width: 22rem;
-    height: 10rem;
-  }
   .willow-flex {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -890,8 +890,13 @@ footer {
     width: 22rem;
     height: 10rem;
   }
+  .button-div .button-comment {
+    width: 22rem;
+    height: 2rem;
+  }
   .contact-background h2 {
     font-size: 2rem;
+    padding: 21rem 0rem 0rem 7rem;
   }
   .main-background {
     display: -webkit-box;
@@ -901,18 +906,30 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    text-align: center;
     background-color: white;
     padding: 0;
   }
   .contact-main {
     margin: 0;
   }
-  .icons-contact {
-    padding-left: 10rem;
+  .contact-me {
+    padding: 0;
   }
   .form-flex {
     padding: 0;
+  }
+  .form-flex .contact-submit {
+    width: 22rem;
+    height: 2rem;
+  }
+  .form-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 .wrapper {
@@ -956,7 +973,7 @@ button {
 }
 
 .button-comment {
-  width: 44.5rem;
+  width: 43.5rem;
   height: 2rem;
   border: none;
   margin-bottom: 4rem;
