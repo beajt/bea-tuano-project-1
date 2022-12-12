@@ -295,6 +295,12 @@ nav li a span {
   padding: 4rem;
 }
 
+.button-find {
+  width: 180px;
+  height: 30px;
+  border: none;
+}
+
 .section-three {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -320,19 +326,11 @@ nav li a span {
 .favourite-flex {
   padding-bottom: 3rem;
 }
-
-.favourite-things {
-  padding-left: 2rem;
+.favourite-flex .favourite-things {
+  padding-top: 3rem;
   padding-left: 8rem;
 }
-
-.bucket-list {
-  padding: 0 6rem 0rem 3rem;
-  margin-bottom: 2rem;
-  text-align: right;
-}
-
-.button-read {
+.favourite-flex .button-read {
   margin-bottom: 2rem;
 }
 
@@ -347,20 +345,25 @@ nav li a span {
   margin-top: -1rem;
   margin-right: -4rem;
 }
-
-.bridge {
+.rectangle-1 .bridge {
   margin: -1rem 1rem 1rem 0;
 }
 
-.lily {
-  margin-top: -1rem;
-  margin-left: -1rem;
+.bucket-list {
+  padding: 0 6rem 0rem 3rem;
+  margin-bottom: 2rem;
+  text-align: right;
 }
 
 .rectangle-2 {
   background-color: #345231;
   margin-bottom: -1rem;
   margin-top: 3rem;
+}
+
+.lily {
+  margin-top: -1rem;
+  margin-left: -1rem;
 }
 
 .willow-journey {
@@ -379,6 +382,11 @@ nav li a span {
   position: absolute;
   z-index: 20;
 }
+.willow-flex .container-2 {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+}
 .willow-flex .flex-willow-journey {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -390,12 +398,6 @@ nav li a span {
   -ms-flex-preferred-size: 70%;
       flex-basis: 70%;
   margin: 0 auto;
-}
-
-.container-2 {
-  position: relative;
-  width: 10rem;
-  height: 10rem;
 }
 
 .square-2 {
@@ -433,32 +435,6 @@ nav li a span {
   max-width: 90%;
 }
 
-.photos-about {
-  padding: 30px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.photo-flex div {
-  width: 50%;
-}
-
-.photos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.icon-margins {
-  margin-top: 0.75rem;
-  margin-right: 1rem;
-}
-
-.icon-background {
-  color: #e4a436;
-}
-
 .icon-description {
   background-color: #f6f6f6;
   display: -webkit-box;
@@ -470,6 +446,15 @@ nav li a span {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.icon-background {
+  color: #e4a436;
+}
+
+.icon-margins {
+  margin-top: 0.75rem;
+  margin-right: 1rem;
 }
 
 .h-description {
@@ -528,12 +513,6 @@ nav li a span {
   padding-left: 2rem;
 }
 
-.icons-contact li {
-  color: #345231;
-  font-size: 1.5rem;
-  margin-right: 1rem;
-}
-
 .contact-main {
   background-color: white;
   width: 30rem;
@@ -541,8 +520,10 @@ nav li a span {
   margin: 0rem 2rem 4rem 7rem;
 }
 
-.bold-email {
-  font-weight: bold;
+.icons-contact li {
+  color: #345231;
+  font-size: 1.5rem;
+  margin-right: 1rem;
 }
 
 .icons-contact ul {
@@ -564,6 +545,9 @@ nav li a span {
 .contact-me li {
   margin-bottom: 0.5rem;
 }
+.contact-me .bold-email {
+  font-weight: bold;
+}
 
 .form-flex {
   display: -webkit-box;
@@ -574,19 +558,16 @@ nav li a span {
           justify-content: space-between;
   padding: 4rem 0 1rem;
 }
-
-.input-contact {
+.form-flex .input-contact {
   font-family: "Montserrat";
   width: 16.5rem;
   margin-bottom: 1rem;
 }
-
-textarea {
+.form-flex textarea {
   font-family: "Montserrat";
   margin-bottom: 1rem;
 }
-
-.contact-submit {
+.form-flex .contact-submit {
   display: inline-block;
   width: 34rem;
   margin-bottom: 5rem;
@@ -622,8 +603,7 @@ textarea {
   display: flex;
   margin-top: 4rem;
 }
-
-.about-recent-flex {
+.blog-flex .about-recent-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -718,6 +698,11 @@ textarea {
 
 .input-blog {
   width: 21.5rem;
+}
+
+header {
+  background-color: #345231;
+  font-family: "Abril Fatface";
 }
 
 .header-title {
@@ -938,11 +923,6 @@ footer {
   max-width: 1080px;
 }
 
-header {
-  background-color: #345231;
-  font-family: "Abril Fatface";
-}
-
 h2 {
   line-height: 1px;
 }
@@ -962,12 +942,6 @@ button {
   line-height: 32px;
   letter-spacing: 1px;
   width: 140px;
-  height: 30px;
-  border: none;
-}
-
-.button-find {
-  width: 180px;
   height: 30px;
   border: none;
 }

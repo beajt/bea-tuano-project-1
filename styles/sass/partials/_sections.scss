@@ -6,6 +6,13 @@
   background-color: $whiteShade;
   text-align: center;
   padding: 4rem;
+
+}
+
+.button-find {
+  width: 180px;
+  height: 30px;
+  border: none;
 }
 
 .section-three {
@@ -28,21 +35,13 @@
 
 .favourite-flex {
   padding-bottom: 3rem;
-}
-
-.favourite-things {
-  padding-left: 2rem;
-  padding-left: 8rem;
-}
-
-.bucket-list {
-  padding: 0 6rem 0rem 3rem;
-  margin-bottom: 2rem;
-  text-align: right;
-}
-
-.button-read {
-  margin-bottom: 2rem;
+  .favourite-things {
+    padding-top: 3rem;
+    padding-left: 8rem;
+  }
+  .button-read {
+    margin-bottom: 2rem;
+  }
 }
 
 .rectangle-1 {
@@ -51,21 +50,26 @@
   justify-content: right;
   margin-top: -1rem;
   margin-right: -4rem;
+  .bridge {
+    margin: -1rem 1rem 1rem 0;
+  }
 }
 
-.bridge {
-  margin: -1rem 1rem 1rem 0;
-}
-
-.lily {
-  margin-top: -1rem;
-  margin-left: -1rem;
+.bucket-list {
+  padding: 0 6rem 0rem 3rem;
+  margin-bottom: 2rem;
+  text-align: right;
 }
 
 .rectangle-2 {
   background-color: $primaryColor;
   margin-bottom: -1rem;
   margin-top: 3rem;
+}
+
+.lily {
+  margin-top: -1rem;
+  margin-left: -1rem;
 }
 
 // WILLOW JOURNEY STARTS
@@ -85,6 +89,12 @@
     z-index: 20;
   }
 
+  .container-2 {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+  }
+
   .flex-willow-journey {
     display: flex;
     flex-direction: column;
@@ -92,13 +102,6 @@
     margin: 0 auto;
   }
 }
-
-.container-2 {
-  position: relative;
-  width: 10rem;
-  height: 10rem;
-}
-
 .square-2 {
   width: 10rem;
   height: 10rem;
@@ -108,6 +111,8 @@
   top: 1rem;
   left: 1rem;
 }
+
+// BACKGROUND IMAGE
 
 .home-background {
   background-image: url("../assets/home-image-5.jpg");
@@ -134,33 +139,22 @@
   }
 }
 
-.photos-about {
-  padding: 30px 0;
-  display: flex;
-}
-.photo-flex {
-  div {
-    width: 50%;
-  }
-}
-.photos {
-  display: flex;
-}
-
-.icon-margins {
-  margin-top: 0.75rem;
-  margin-right: 1rem;
-}
-.icon-background {
-  color: $tertiary;
-}
 .icon-description {
   background-color: $whiteShade;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-// h tags with p tags underneath
+
+.icon-background {
+  color: $tertiary;
+}
+
+.icon-margins {
+  margin-top: 0.75rem;
+  margin-right: 1rem;
+}
+
 .h-description {
   display: flex;
   flex-direction: column;
@@ -203,6 +197,13 @@
   padding-left: 2rem;
 }
 
+.contact-main {
+  background-color: white;
+  width: 30rem;
+  height: 15rem;
+  margin: 0rem 2rem 4rem 7rem;
+}
+
 .icons-contact {
   li {
     color: $primaryColor;
@@ -211,23 +212,13 @@
   }
 }
 
-.contact-main {
-  background-color: white;
-  width: 30rem;
-  height: 15rem;
-  margin: 0rem 2rem 4rem 7rem;
-}
-
-.bold-email {
-  font-weight: bold;
-}
 
 .icons-contact {
   ul {
     display: flex;
     flex-direction: row;
     justify-content: left;
-
+    
     li {
       padding: 2px 2px;
     }
@@ -238,29 +229,32 @@
   li {
     margin-bottom: 0.5rem;
   }
+  .bold-email {
+    font-weight: bold;
+  }
 }
 
 .form-flex {
   display: flex;
   justify-content: space-between;
   padding: 4rem 0 1rem;
-}
 
-.input-contact {
-  font-family: $bodyFont;
-  width: 16.5rem;
-  margin-bottom: 1rem;
-}
-
-textarea {
-  font-family: $bodyFont;
-  margin-bottom: 1rem;
-}
-
-.contact-submit {
-  display: inline-block;
-  width: 34rem;
-  margin-bottom: 5rem;
+  .input-contact {
+    font-family: $bodyFont;
+    width: 16.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  textarea {
+    font-family: $bodyFont;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-submit {
+    display: inline-block;
+    width: 34rem;
+    margin-bottom: 5rem;
+  }
 }
 
 // BLOG PAGE
@@ -293,13 +287,13 @@ textarea {
 .blog-flex {
   display: flex;
   margin-top: 4rem;
+  .about-recent-flex {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+  }
 }
 
-.about-recent-flex {
-  display: flex;
-  flex-direction: column;
-  padding-left: 3rem;
-}
 
 .about-willow-text {
   padding: 0rem 1rem 0rem 2rem;

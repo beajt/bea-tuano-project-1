@@ -19,11 +19,6 @@
   max-width: 1080px;
 }
 
-header {
-  background-color: $primaryColor;
-  font-family: $baseFont;
-}
-
 h2 {
   line-height: 1px;
 }
@@ -43,12 +38,6 @@ button {
   line-height: 32px;
   letter-spacing: 1px;
   width: 140px;
-  height: 30px;
-  border: none;
-}
-
-.button-find {
-  width: 180px;
   height: 30px;
   border: none;
 }
