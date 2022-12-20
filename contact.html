@@ -12,25 +12,31 @@
     <title>Contact</title>
   </head>
   <body class="body-background">
-    <nav>
-      <div class="wrapper">
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
+    <nav class="nav-bar">
+      <div class="wrapper hamburger-flex">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
           </li>
-          <li>
-            <a href="#">About</a>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
           </li>
-          <li>
-            <a href="index.html"><span>WILLOW</span></a>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link"><span>WILLOW</span></a>
           </li>
-          <li>
-            <a href="blog.html">Blog</a>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
           </li>
-          <li>
-            <a href="contact.html">Contact</a>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
           </li>
         </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
       </div>
     </nav>
     <!-- NAV END-->
@@ -66,7 +72,7 @@
         <section>
           <div>
             <div class="form-flex">
-              <form class="form-contact" action="#">
+              <form class="form-contact" action="#" id="form-contact">
                 <label for="name"></label>
                 <input
                   class="input-contact"
@@ -107,6 +113,7 @@
       <p>Copyright © 2018 HackerYou</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./navScript.js"></script>
+    <script src="./contactScript.js"></script>
   </body>
 </html>

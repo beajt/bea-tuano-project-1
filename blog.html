@@ -8,25 +8,31 @@
     <title>Blog</title>
   </head>
   <body class="body-background">
-    <nav>
-      <div class="wrapper">
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
+    <nav class="nav-bar">
+      <div class="wrapper hamburger-flex">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
           </li>
-          <li>
-            <a href="#">About</a>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
           </li>
-          <li>
-            <a href="index.html"><span>WILLOW</span></a>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link"><span>WILLOW</span></a>
           </li>
-          <li>
-            <a href="blog.html">Blog</a>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
           </li>
-          <li>
-            <a href="contact.html">Contact</a>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
           </li>
         </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
       </div>
     </nav>
     <!-- NAV END-->
@@ -52,7 +58,7 @@
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
                   enim ea nesciunt! Perferendis, debitis!
-                  <a href>Find out more.</a>
+                  <a href = "#">Find out more.</a>
                 </p>
               </div>
             </section>
@@ -134,8 +140,8 @@
               </div>
             </section>
 
-            <section class="daisy">
-              <div class="daisy-post">
+            <section class="daisy" id="daisy">
+              <div class="daisy-post" id="daisy-post">
                 <img
                   src="./assets/blog-image-4.jpg"
                   alt="image of man behind leaves"
@@ -151,7 +157,7 @@
               <div class="border"></div>
             </section>
 
-            <form action="#">
+            <form action="#" id="form-blog">
               <label for="name"></label>
               <input
                 class="input-blog"
@@ -191,6 +197,7 @@
     <footer>
       <p>Copyright © 2018 HackerYou</p>
     </footer>
-  <script src="script.js"></script>
+    <script src="./navScript.js"></script>
+    <script src="./blogScript.js"></script>
   </body>
 </html>
